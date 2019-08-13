@@ -1,6 +1,7 @@
 ##This algorithm is based on section 3.3 in Mining of Massive Datasets by Jure Leskovec, etc.  
 ##The function is designed to transform shingle matrix with 1 for document containing word, 0 for not, 
 ##to signature matrix based 
+import numpy as np
 
 def hash_sign(d,shingle_mat):
 	#initilise the signature matrix 
